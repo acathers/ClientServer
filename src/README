@@ -1,0 +1,11 @@
+I was able to get the TCP to send a file/image, just couldn't get UDP to do it.
+
+BUILDING:
+	run make
+
+USAGE:
+	TCP: start server with ./serverTCP path/to/file
+	     start client, and it will download to the folder it's in
+
+	UDP: start server with ./serverUDP
+	     start client with ./clientUDP, and type a message, server will recieve and send a message back
